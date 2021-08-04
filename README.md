@@ -16,8 +16,9 @@ The ticket viewer should:
 ## Getting Started
 1. clone git repo into a working directory of your choice
 2. navigate to the working directory
-3. edit src code (specified to Sabrina) to add credentials
-4. create a new folder named "out" in the working directory
+3. navigate to "src" folder and modify code (specified to Sabrina) to add credentials
+4. go back to previous directory - the main project folder (zendesk-ticket-viewer)
+5. create a new folder named "out" in the working directory
 
 ## Compilation
 In the working directory, compile the java program with this command:\
