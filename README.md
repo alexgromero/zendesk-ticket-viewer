@@ -14,8 +14,9 @@ The ticket viewer should:
 - Java installed on your machine
 
 ## Getting Started
-1. clone git repo into directory of your choice
-2. navigate to the directory
+1. clone git repo into a working directory of your choice
+2. navigate to the working directory
+3. create a new folder named "out" in the working directory
 
 ## Compilation
 In the working directory, compile the java program with this command:\
