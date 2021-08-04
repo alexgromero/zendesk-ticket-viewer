@@ -1,9 +1,26 @@
 # Zendesk Ticket Viewer
-This project was implemented for Zendesk's Co-Op Coding Challenge
+*This project was implemented for Zendesk's Co-Op Coding Challenge*
 
-The ticket viewer should:\
-[x] Connect to the Zendesk API\
-[x] Request all the tickets for your account\
-[x] Display them in a list\
-[x] Display individual ticket details\
-[ ] Page through tickets when more than 25 are returned\
+The Zendesk Ticket Viewer is a CLI application that allows the user to view the tickets in their Zendesk account.
+
+The ticket viewer should:
+- [x] Connect to the Zendesk API
+- [x] Request all the tickets for your account
+- [x] Display them in a list
+- [x] Display individual ticket details
+- [ ] Page through tickets when more than 25 are returned
+
+## Prerequisites
+- Java installed on your machine
+
+## Getting Started
+1. clone git repo into directory of your choice
+2. navigate to the directory
+
+## Compilation
+In the working directory, compile the java program with this command:\
+`javac -sourcepath src -d out -cp lib/json-20210307.jar src/Main.java`
+
+## Execution
+To run the compiled program execute this command:\
+`java -cp out:lib/json-20210307.jar Main`
