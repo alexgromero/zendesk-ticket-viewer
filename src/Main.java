@@ -1,6 +1,6 @@
-import controller.TicketViewerController;
 import model.TicketRepository;
 import view.TicketViewerInterface;
+import controller.TicketViewerController;
 
 public class Main {
 	/*
