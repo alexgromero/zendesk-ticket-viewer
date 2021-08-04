@@ -28,7 +28,7 @@ public class TicketViewerInterface {
 	public void displayNavigationMenu() {
 		System.out.println(String.format("%s", "-------------------------------------------------------------------------------"));
 		
-		// TODO - figure out pageNum situation
+		// TODO: figure out pagination & update 'page x of x' placeholder
 		System.out.println("<<< Back [b]" + "\t\t\tPage x of x\t\t\t" + "[n] Next >>>\n");
 		
 		System.out.println("* [i] - View an individual ticket");
@@ -61,7 +61,6 @@ public class TicketViewerInterface {
 		System.out.println("Requested by: " + infoToDisplay.get(0) + "\t\tStatus: " + infoToDisplay.get(1));
 		System.out.println("Created on: " + infoToDisplay.get(2) + "\tUpdated on: " + infoToDisplay.get(3));
 		System.out.println("\nSubject: " + infoToDisplay.get(4) + "\n");
-		// TODO - format description String
 		System.out.println("Description: " + infoToDisplay.get(5));
 	}
 	
